@@ -1,0 +1,259 @@
+
+
+.navbar a {
+    color: white;
+}
+
+.navbar-nav li {
+    padding: 8px 5px;
+}
+
+.home {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+.homelayer {
+    background-color: rgba(0, 0, 0, 0.622);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+
+.layercontent {
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.layercontent h1 {
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+.typing::after{
+    content: "";
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: white;
+
+}
+
+@keyframes typing{
+
+    0%  { content: "I Am |"; }
+    2%  { content: "I Am D|"; }
+    4%  { content: "I Am De|"; }
+    6%  { content: "I Am Dev|"; }
+    8%  { content: "I Am Deve|"; }
+    10% { content: "I Am Devel|"; }
+    12% { content: "I Am Develo|"; }
+    14% { content: "I Am Develop|"; }
+    16% { content: "I Am Develope|"; }
+    18% { content: "I Am Developer|"; }
+    20% { content: "I Am Develope|"; }
+    22% { content: "I Am Develop|"; }
+    24% { content: "I Am Develo|"; }
+    26% { content: "I Am Devel|"; }
+    28% { content: "I Am Deve|"; }
+    30% { content: "I Am Dev|"; }
+    32% { content: "I Am De|"; }
+    34% { content: "I Am D|"; }
+
+    36% { content: "I Am |"; }
+    38% { content: "I Am D|"; }
+    40% { content: "I Am De|"; }
+    42% { content: "I Am Des|"; }
+    44% { content: "I Am Desi|"; }
+    46% { content: "I Am Desin|"; }
+    48% { content: "I Am Desine|"; }
+    50% { content: "I Am Desiner|"; }
+    52% { content: "I Am Desine|"; }
+    54% { content: "I Am Desin |"; }
+    56% { content: "I Am Desi|"; }
+    58% { content: "I Am Des|"; }
+    60% { content: "I Am De|"; }
+    62% { content: "I Am D|"; }
+
+    64% { content: "I Am |"; }
+    65% { content: "I Am L|"; }
+    66% { content: "I Am La|"; }
+    67% { content: "I Am Lar|"; }
+    68% { content: "I Am Larr|"; }
+    69% { content: "I Am Larry|"; }
+    70% { content: "I Am Larry D|"; }
+    71% { content: "I Am Larry Da|"; }
+    73% { content: "I Am Larry Dan|"; }
+    75% { content: "I Am Larry Dani|"; }
+    77% { content: "I Am Larry Danie|"; }
+    79% { content: "I Am Larry Daniel|"; }
+    80% { content: "I Am Larry Daniels|"; }
+    82% { content: "I Am Larry Daniel|"; }
+    84% { content: "I Am Larry Danie|"; }
+    86% { content: "I Am Larry Dani|"; }
+    88% { content: "I Am Larry Dan|"; }
+    90% { content: "I Am Larry Da|"; }
+    92% { content: "I Am Larry D|"; }
+    94% { content: "I Am Larry |"; }
+    96% { content: "I Am Larr |"; }
+    97% { content: "I Am Lar |"; }
+    98% { content: "I Am La |"; }
+    99% { content: "I Am L |"; }
+    100% { content:"I Am |"; }
+
+}
+
+.home .social-icon {
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------------------------------------------- */
+
+
+
+
+.about-img {
+    width: 100%;
+}
+
+.w-100 {
+    width: 100%!important;
+}
+
+.about-content h6 {
+    margin: 0;
+    font-size: 15px;
+    color: #9aaaab;
+}
+
+.about-content .about-p{
+    color: #9aaaab;
+}
+
+.bar-word {
+    text-align: start;
+    padding: 0 10px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.bar-percenteg {
+    text-align: end;
+    padding-right: 3px;
+}
+
+.btn1 {
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 5px;
+    transition: 1s;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    color: black;
+
+}
+
+.btn2 {
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 5px;
+    text-align: center;
+    transition: 1s;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: #fff;
+}
+
+/* ------------------------------- */
+
+
+.title h4 {
+    font-weight: 900;
+    font-size: 50px;
+    position: relative;
+}
+
+.Services-item{
+    margin-bottom: 20px;
+}
+
+
+.Services-item i{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #9aaaab23;
+    transition: 1s ;
+}
+
+
+.Services-item i:hover{
+    background-color: black;
+    color: #fff;
+}
+
+/* ------------------------------------------- */
+
+
+.work .work-layer{
+    opacity: 0;
+    transition:  all 0.5s;
+}
+
+.work-list ul li a{
+    color: black;
+}
+
+
+
+.work .work-item2:hover .work-layer {
+    opacity: 1;
+    
+    border: 10px solid #eee;
+
+}
+
+
+.work .work-item2:hover .work-text{
+
+    top: 0 !important;
+    
+}
+
+.work .work-text{
+transition: all 0.5s;
+}
+
+.work .work-item2:hover  img {
+    
+transform: scale(1.1);
+}
+
+.work img {
+    transition: .5s ;
+}
